@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Regular.woff2') format('woff2'),
+    url('Roboto-Regular.woff') format('woff'),
+    url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.eot');
+    src: url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Bold.woff2') format('woff2'),
+    url('Roboto-Bold.woff') format('woff'),
+    url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: #152235;
+    margin-bottom: 25px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.navbar-light,
+.navbar-nav,
+.nav-link {
+    color: white;
+}
+
+.logo {
+    width: 15%;
+}
+
+.filter {
+    width: 40%;
+}
+
+.card {
+    width: 90%;
+    border: 2px solid #eaeff2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.img {
+    position: relative;
+
+}
+
+.img img {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 243px;
+    background: #00000017;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.img:hover .text {
+    opacity: 1;
+    visibility: visible;
+}
+
+.day {
+    padding: 0 5px;
+}
+
+.rocket {
+    width: 13%;
+    padding: 10px 6px;
+    text-align: center;
+    background: #06ca55;
+}
+
+.titles {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 auto;
+
+}
+
+.title-text {
+    text-align: center;
+    color: #a6b6b6;
+    font-size: 17px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.city:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: #06ca55;
+    top: 110%;
+    left: 47%
+}
+
+.desc {
+    text-align: center;
+    color: #a6b6b6;
+    font-size: 17px;
+    width: 78%;
+    margin: 0 auto;
+}
+
+.about {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background: #eaeff2;
+    padding: 8px 5px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+}
+
+.coin {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.fa-users,
+.fa-user,
+.fa-coins {
+    color: #06ca55;
+}
+
+.more {
+    font-size: 22px;
+    text-align: center;
+}
+
+.more button {
+    border: none;
+    background: white;
+}
