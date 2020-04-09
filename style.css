@@ -57,41 +57,41 @@ header {
 
 .img {
     position: relative;
-
 }
 
 .img img {
     width: 100%;
 }
 
+
 .text {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 243px;
+    top: 238px;
     background: #00000017;
+    color: white;
     width: 100%;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s;
 }
-
 .img:hover {
     cursor: pointer;
 }
 
-.img:hover .text {
+.img:hover + .text {
     opacity: 1;
     visibility: visible;
 }
 
 .day {
-    padding: 0 5px;
+    padding: 15px 5px;
 }
 
 .rocket {
-    width: 13%;
-    padding: 10px 6px;
+    width: 15%;
+    padding: 3px 0;
     text-align: center;
     background: #06ca55;
 }
@@ -146,23 +146,25 @@ header {
     justify-content: space-between;
     width: 20%;
 }
-
+.users-group {
+    width: 30%;
+}
 .user {
     display: flex;
     justify-content: space-between;
-    width: 9%;
+    width: 10%;
 }
-
+.man-user {
+    width: 50%;
+    margin-right: 5px;
+}
 .coin {
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    width: 24%;
 }
-
-.fa-users,
-.fa-user,
-.fa-coins {
-    color: #06ca55;
+.coins {
+    width: 30px;
 }
 
 .more {
