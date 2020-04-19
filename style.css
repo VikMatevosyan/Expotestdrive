@@ -144,27 +144,30 @@ header {
 .group {
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    width: 31%;
 }
 .users-group {
-    width: 30%;
+    width: 28px;
+    height: 28px;
 }
 .user {
     display: flex;
     justify-content: space-between;
-    width: 10%;
+    width: 20%;
 }
 .man-user {
-    width: 50%;
+    width: 28px;
+    height: 28px;
     margin-right: 5px;
 }
 .coin {
     display: flex;
     justify-content: space-between;
-    width: 24%;
+    width: 32%;
 }
 .coins {
-    width: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 .more {
