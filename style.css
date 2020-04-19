@@ -54,21 +54,22 @@ header {
     margin-right: auto;
     margin-bottom: 25px;
 }
-
 .img {
-    position: relative;
+    width: 100%;
 }
-
 .img img {
     width: 100%;
 }
-
+.row {
+    position: relative;
+    margin: 0;
+}
 
 .text {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 29%;
+    bottom: 0;
     background: #00000017;
     color: white;
     width: 100%;
@@ -144,7 +145,8 @@ header {
 .group {
     display: flex;
     justify-content: space-between;
-    width: 31%;
+    min-width: 31%;
+    max-width: 35%;
 }
 .users-group {
     width: 28px;
@@ -153,7 +155,8 @@ header {
 .user {
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    min-width: 20%;
+    max-width: 25%;
 }
 .man-user {
     width: 28px;
@@ -163,7 +166,8 @@ header {
 .coin {
     display: flex;
     justify-content: space-between;
-    width: 32%;
+    min-width: 32%;
+    max-width: 35%;
 }
 .coins {
     width: 28px;
